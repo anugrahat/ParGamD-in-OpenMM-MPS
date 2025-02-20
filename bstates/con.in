@@ -1,0 +1,3 @@
+parm chignolin.parm7
+trajin chignolin.rst7
+trajout bstate.rst7 restart

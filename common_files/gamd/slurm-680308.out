@@ -1,0 +1,26 @@
+Module conda3/4.X loaded.
+
+This module initializes a base conda install in your current shell environment.
+It takes care of `conda init`, and as such, will interfere with locally-installed 
+conda; if you have a local install, it should have warned you and failed to load.
+
+To view available environments, including your local environments and those 
+installed system-wide, use: 
+
+    conda env list
+
+To activate an environment, use: 
+
+    conda activate [ENVIRONMENT_NAME]
+
+To create your own environment, you can use either the `conda` or `mamba` command.
+`mamba` functions exactly the same as `conda`, and uses the same channels, while 
+solving and creating environments much more efficiently. For example, you could create 
+an environment containing python v3.10, pandas, and ipython with: 
+
+    mamba create -n my-pandas-env python=3.10 pandas ipython
+
+and activate it with `conda activate my-pandas-env`.
+
+For more information, see https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-environments.
+python: can't open file '/home/anugraha/pargamd_openmm/ParGaMD/common_files/gamd-openmm/gamdRunner': [Errno 2] No such file or directory

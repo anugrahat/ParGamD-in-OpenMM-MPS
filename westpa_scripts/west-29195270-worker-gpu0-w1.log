@@ -1,0 +1,2 @@
+Updating system with the options from the configuration file
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.c26a9366-abb1-45cc-aecb-fe2c2a18169c] -- sending SIGKILL to worker process 30729

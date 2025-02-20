@@ -1,0 +1,345 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 23:30:00
+
+Mon Feb 17 12:36:24 2025
+Iteration 1 (20 requested)
+Beginning iteration 1
+24 segments remain in iteration 1 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:03:51.069619, cputime: 0:20:10.292569
+
+
+Mon Feb 17 12:40:15 2025
+Iteration 2 (20 requested)
+Beginning iteration 2
+24 segments remain in iteration 2 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:51.118520, cputime: 0:19:57.161151
+
+
+Mon Feb 17 12:43:06 2025
+Iteration 3 (20 requested)
+Beginning iteration 3
+24 segments remain in iteration 3 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:52.374255, cputime: 0:19:44.488554
+
+
+Mon Feb 17 12:45:58 2025
+Iteration 4 (20 requested)
+Beginning iteration 4
+24 segments remain in iteration 4 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:50.951400, cputime: 0:20:00.127238
+
+
+Mon Feb 17 12:48:49 2025
+Iteration 5 (20 requested)
+Beginning iteration 5
+24 segments remain in iteration 5 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:51.916077, cputime: 0:19:32.865478
+
+
+Mon Feb 17 12:51:41 2025
+Iteration 6 (20 requested)
+Beginning iteration 6
+24 segments remain in iteration 6 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:54.101328, cputime: 0:19:21.613177
+
+
+Mon Feb 17 12:54:35 2025
+Iteration 7 (20 requested)
+Beginning iteration 7
+24 segments remain in iteration 7 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:48.909793, cputime: 0:19:37.710050
+
+
+Mon Feb 17 12:57:24 2025
+Iteration 8 (20 requested)
+Beginning iteration 8
+24 segments remain in iteration 8 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:52.160006, cputime: 0:19:43.106575
+
+
+Mon Feb 17 13:00:16 2025
+Iteration 9 (20 requested)
+Beginning iteration 9
+24 segments remain in iteration 9 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:53.682129, cputime: 0:19:44.615180
+
+
+Mon Feb 17 13:03:10 2025
+Iteration 10 (20 requested)
+Beginning iteration 10
+24 segments remain in iteration 10 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:54.092600, cputime: 0:19:37.638741
+
+
+Mon Feb 17 13:06:04 2025
+Iteration 11 (20 requested)
+Beginning iteration 11
+24 segments remain in iteration 11 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:51.259069, cputime: 0:19:19.481714
+
+
+Mon Feb 17 13:08:56 2025
+Iteration 12 (20 requested)
+Beginning iteration 12
+24 segments remain in iteration 12 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:52.773312, cputime: 0:20:02.056124
+
+
+Mon Feb 17 13:11:49 2025
+Iteration 13 (20 requested)
+Beginning iteration 13
+24 segments remain in iteration 13 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:52.121777, cputime: 0:19:52.059882
+
+
+Mon Feb 17 13:14:41 2025
+Iteration 14 (20 requested)
+Beginning iteration 14
+24 segments remain in iteration 14 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:03:03.260305, cputime: 0:20:01.221308
+
+
+Mon Feb 17 13:17:44 2025
+Iteration 15 (20 requested)
+Beginning iteration 15
+24 segments remain in iteration 15 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:51.999713, cputime: 0:19:26.048017
+
+
+Mon Feb 17 13:20:36 2025
+Iteration 16 (20 requested)
+Beginning iteration 16
+24 segments remain in iteration 16 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:54.291434, cputime: 0:18:49.969970
+
+
+Mon Feb 17 13:23:30 2025
+Iteration 17 (20 requested)
+Beginning iteration 17
+24 segments remain in iteration 17 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:52.002959, cputime: 0:19:37.293914
+
+
+Mon Feb 17 13:26:22 2025
+Iteration 18 (20 requested)
+Beginning iteration 18
+24 segments remain in iteration 18 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:51.826115, cputime: 0:19:32.015321
+
+
+Mon Feb 17 13:29:14 2025
+Iteration 19 (20 requested)
+Beginning iteration 19
+24 segments remain in iteration 19 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:50.109702, cputime: 0:19:23.989490
+
+
+Mon Feb 17 13:32:04 2025
+Iteration 20 (20 requested)
+Beginning iteration 20
+24 segments remain in iteration 20 (24 total)
+1 of 1 (100.000000%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.08
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+Iteration completed successfully
+Iteration wallclock: 0:02:49.529428, cputime: 0:19:44.057655
+
+
+Mon Feb 17 13:34:54 2025
+WEST run complete.

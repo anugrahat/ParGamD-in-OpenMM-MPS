@@ -1,0 +1,9 @@
+# 01/24/25 16:20:42
+parm chignolin.parm7
+trajin bstate.rst7
+trajout bstate.rst restart
+q
+# 01/24/25 16:21:43
+parm chignolin.parm7
+trajin bstate.rst7
+trajout bstate2.rst restart

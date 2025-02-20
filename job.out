@@ -1,0 +1,1169 @@
++ cd /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
++ module load gcc/13.3.1-p20240614
+++ /usr/share/lmod/lmod/libexec/lmod bash load gcc/13.3.1-p20240614
++ eval 'CC=gcc;' export 'CC;' '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu;' export 'CMAKE_PREFIX_PATH;' '__LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include;' export 'CPATH;' 'CXX=g++;' export 'CXX;' '__LMOD_Priority_EMACSLOADPATH=\' ':100;' export '__LMOD_Priority_EMACSLOADPATH;' '__LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp:1;' export '__LMOD_REF_COUNT_EMACSLOADPATH;' 'EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp::;' export 'EMACSLOADPATH;' 'F77=gfortran;' export 'F77;' 'FC=gfortran;' export 'FC;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info:1;' export '__LMOD_REF_COUNT_INFOPATH;' 'INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info;' export 'INFOPATH;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;gcc/13.3.1-p20240614:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.3.1-p20240614;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale:1;' export '__LMOD_REF_COUNT_LOCPATH;' 'LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale;' export 'LOCPATH;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python:1;' export '__LMOD_REF_COUNT_PYTHONPATH;' 'PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python;' export 'PYTHONPATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/gcc/13.3.1-p20240614.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.3.1-p20240614.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4zLjEtcDIwMjQwNjE0Lmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMy4x;' export '_ModuleTable001_;' '_ModuleTable002_=LXAyMDI0MDYxNCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4zLjEtcDIwMjQwNjE0Iix9LFsicHNjLmFsbG9jYXRpb25zLnVzZXIiXT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vcHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJwc2MuYWxsb2NhdGlvbnMudXNlci8xLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJwc2MuYWxsb2NhdGlvbnMudXNlciIsfSx9LG1wYXRoQT17Ii9ldGMvc2NsL21vZHVsZWZpbGVzIiwiL29wdC9t;' export '_ModuleTable002_;' '_ModuleTable003_=b2R1bGVmaWxlcy9wcm9kdWN0aW9uIiwiL29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uIiwiL29wdC9tb2R1bGVmaWxlcy9kZXByZWNhdGVkIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9ldGMvc2NsL21vZHVsZWZpbGVzOi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9kZXByZWNhdGVkOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVm;' export '_ModuleTable003_;' '_ModuleTable004_=aWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;'
+++ CC=gcc
+++ export CC
+++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu:1
+++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
+++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu
+++ export CMAKE_PREFIX_PATH
+++ __LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1
+++ export __LMOD_REF_COUNT_CPATH
+++ CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include
+++ export CPATH
+++ CXX=g++
+++ export CXX
+++ __LMOD_Priority_EMACSLOADPATH=' :100'
+++ export __LMOD_Priority_EMACSLOADPATH
+++ __LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp:1
+++ export __LMOD_REF_COUNT_EMACSLOADPATH
+++ EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp::
+++ export EMACSLOADPATH
+++ F77=gfortran
+++ export F77
+++ FC=gfortran
+++ export FC
+++ __LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1
+++ export __LMOD_REF_COUNT_INCLUDE
+++ INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include
+++ export INCLUDE
+++ __LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info:1
+++ export __LMOD_REF_COUNT_INFOPATH
+++ INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info
+++ export INFOPATH
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64
+++ export LD_LIBRARY_PATH
+++ __LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1
+++ export __LMOD_REF_COUNT_LIBRARY_PATH
+++ LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64
+++ export LIBRARY_PATH
+++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;gcc/13.3.1-p20240614:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.3.1-p20240614
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale:1
+++ export __LMOD_REF_COUNT_LOCPATH
+++ LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale
+++ export LOCPATH
+++ __LMOD_REF_COUNT_MANPATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
+++ export MANPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export PATH
+++ __LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:1
+++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
+++ PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig
+++ export PKG_CONFIG_PATH
+++ __LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python:1
+++ export __LMOD_REF_COUNT_PYTHONPATH
+++ PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python
+++ export PYTHONPATH
+++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/gcc/13.3.1-p20240614.lua:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.3.1-p20240614.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4zLjEtcDIwMjQwNjE0Lmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMy4x
+++ export _ModuleTable001_
+++ _ModuleTable002_=LXAyMDI0MDYxNCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4zLjEtcDIwMjQwNjE0Iix9LFsicHNjLmFsbG9jYXRpb25zLnVzZXIiXT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vcHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJwc2MuYWxsb2NhdGlvbnMudXNlci8xLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJwc2MuYWxsb2NhdGlvbnMudXNlciIsfSx9LG1wYXRoQT17Ii9ldGMvc2NsL21vZHVsZWZpbGVzIiwiL29wdC9t
+++ export _ModuleTable002_
+++ _ModuleTable003_=b2R1bGVmaWxlcy9wcm9kdWN0aW9uIiwiL29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uIiwiL29wdC9tb2R1bGVmaWxlcy9kZXByZWNhdGVkIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9ldGMvc2NsL21vZHVsZWZpbGVzOi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9kZXByZWNhdGVkOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVm
+++ export _ModuleTable003_
+++ _ModuleTable004_=aWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfQ==
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules load gcc/13.3.1-p20240614
++ return 0
++ module load openmpi/5.0.3-gcc13.2.1
+++ /usr/share/lmod/lmod/libexec/lmod bash load openmpi/5.0.3-gcc13.2.1
+
+The following have been reloaded with a version change:
+  1) gcc/13.3.1-p20240614 => gcc/13.2.1-p20240113
+
++ eval 'CC=gcc;' export 'CC;' '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu;' export 'CMAKE_PREFIX_PATH;' '__LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include;' export 'CPATH;' 'CXX=g++;' export 'CXX;' '__LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp:1;' export '__LMOD_REF_COUNT_EMACSLOADPATH;' 'EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp::;' export 'EMACSLOADPATH;' 'F77=gfortran;' export 'F77;' 'FC=gfortran;' export 'FC;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info:1;' export '__LMOD_REF_COUNT_INFOPATH;' 'INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info;' export 'INFOPATH;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale:1;' export '__LMOD_REF_COUNT_LOCPATH;' 'LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale;' export 'LOCPATH;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' 'OPENMPI_DIR=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu;' export 'OPENMPI_DIR;' 'OPENMPI_VERSION=5.0.3;' export 'OPENMPI_VERSION;' '__LMOD_REF_COUNT_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python:1;' export '__LMOD_REF_COUNT_PYTHONPATH;' 'PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python;' export 'PYTHONPATH;' 'SLURM_WHOLE=1;' export 'SLURM_WHOLE;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4yLjEtcDIwMjQwMTEzLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMi4x;' export '_ModuleTable001_;' '_ModuleTable002_=LXAyMDI0MDExMyIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4yLjEtcDIwMjQwMTEzIix9LG9wZW5tcGk9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL29wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlv;' export '_ModuleTable002_;' '_ModuleTable003_=bi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIs;' export '_ModuleTable003_;' '_ModuleTable004_=Ii91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;'
+++ CC=gcc
+++ export CC
+++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1
+++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
+++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu
+++ export CMAKE_PREFIX_PATH
+++ __LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1
+++ export __LMOD_REF_COUNT_CPATH
+++ CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include
+++ export CPATH
+++ CXX=g++
+++ export CXX
+++ __LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp:1
+++ export __LMOD_REF_COUNT_EMACSLOADPATH
+++ EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp::
+++ export EMACSLOADPATH
+++ F77=gfortran
+++ export F77
+++ FC=gfortran
+++ export FC
+++ __LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1
+++ export __LMOD_REF_COUNT_INCLUDE
+++ INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include
+++ export INCLUDE
+++ __LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info:1
+++ export __LMOD_REF_COUNT_INFOPATH
+++ INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info
+++ export INFOPATH
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
+++ export LD_LIBRARY_PATH
+++ __LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1
+++ export __LMOD_REF_COUNT_LIBRARY_PATH
+++ LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
+++ export LIBRARY_PATH
+++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale:1
+++ export __LMOD_REF_COUNT_LOCPATH
+++ LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale
+++ export LOCPATH
+++ __LMOD_REF_COUNT_MANPATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
+++ export MANPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ OPENMPI_DIR=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu
+++ export OPENMPI_DIR
+++ OPENMPI_VERSION=5.0.3
+++ export OPENMPI_VERSION
+++ __LMOD_REF_COUNT_PATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export PATH
+++ __LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1
+++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
+++ PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig
+++ export PKG_CONFIG_PATH
+++ __LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python:1
+++ export __LMOD_REF_COUNT_PYTHONPATH
+++ PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python
+++ export PYTHONPATH
+++ SLURM_WHOLE=1
+++ export SLURM_WHOLE
+++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4yLjEtcDIwMjQwMTEzLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMi4x
+++ export _ModuleTable001_
+++ _ModuleTable002_=LXAyMDI0MDExMyIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4yLjEtcDIwMjQwMTEzIix9LG9wZW5tcGk9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL29wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlv
+++ export _ModuleTable002_
+++ _ModuleTable003_=bi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIs
+++ export _ModuleTable003_
+++ _ModuleTable004_=Ii91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules load openmpi/5.0.3-gcc13.2.1
++ return 0
++ module load cuda/12.4.0
+++ /usr/share/lmod/lmod/libexec/lmod bash load cuda/12.4.0
++ eval '__LMOD_REF_COUNT_CPATH=/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include;' export 'CPATH;' 'CUDA_HOME=/opt/packages/cuda/v12.4.0;' export 'CUDA_HOME;' 'CUDA_PATH=/opt/packages/cuda/v12.4.0;' export 'CUDA_PATH;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1\;cuda/12.4.0:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/cuda/v12.4.0/gds/man:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxjdWRhPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9jdWRhLzEyLjQuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY3VkYS8xMi40LjAiLFsibG9h;' export '_ModuleTable001_;' '_ModuleTable002_=ZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjdWRhLzEyLjQuMCIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4yLjEtcDIwMjQwMTEzLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMi4xLXAyMDI0MDExMyIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4yLjEtcDIwMjQwMTEzIix9LG9wZW5tcGk9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL29wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNS4w;' export '_ModuleTable002_;' '_ModuleTable003_=LjMtZ2NjMTMuMi4xIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIv;' export '_ModuleTable003_;' '_ModuleTable004_=b3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21v;' export '_ModuleTable004_;' '_ModuleTable005_=ZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;'
+++ __LMOD_REF_COUNT_CPATH='/opt/packages/cuda/v12.4.0/include:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1'
+++ export __LMOD_REF_COUNT_CPATH
+++ CPATH=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include
+++ export CPATH
+++ CUDA_HOME=/opt/packages/cuda/v12.4.0
+++ export CUDA_HOME
+++ CUDA_PATH=/opt/packages/cuda/v12.4.0
+++ export CUDA_PATH
+++ __LMOD_REF_COUNT_INCLUDE='/opt/packages/cuda/v12.4.0/include:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1'
+++ export __LMOD_REF_COUNT_INCLUDE
+++ INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include
+++ export INCLUDE
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
+++ export LD_LIBRARY_PATH
+++ __LMOD_REF_COUNT_LIBRARY_PATH='/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1'
+++ export __LMOD_REF_COUNT_LIBRARY_PATH
+++ LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
+++ export LIBRARY_PATH
+++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1;cuda/12.4.0:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/packages/cuda/v12.4.0/gds/man:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
+++ export MANPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export PATH
+++ __LMOD_REF_COUNT_PKG_CONFIG_PATH='/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1'
+++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
+++ PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig
+++ export PKG_CONFIG_PATH
+++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;/opt/modulefiles/production/cuda/12.4.0.lua:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxjdWRhPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9jdWRhLzEyLjQuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY3VkYS8xMi40LjAiLFsibG9h
+++ export _ModuleTable001_
+++ _ModuleTable002_=ZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjdWRhLzEyLjQuMCIsfSxnY2M9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2djYy8xMy4yLjEtcDIwMjQwMTEzLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvMTMuMi4xLXAyMDI0MDExMyIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImdjYy8xMy4yLjEtcDIwMjQwMTEzIix9LG9wZW5tcGk9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL29wZW5tcGkvNS4wLjMtZ2NjMTMuMi4xIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNS4w
+++ export _ModuleTable002_
+++ _ModuleTable003_=LjMtZ2NjMTMuMi4xIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIv
+++ export _ModuleTable003_
+++ _ModuleTable004_=b3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21v
+++ export _ModuleTable004_
+++ _ModuleTable005_=ZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9
+++ export _ModuleTable005_
+++ _ModuleTable_Sz_=5
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules load cuda/12.4.0
++ return 0
++ module load anaconda3/2024.10-1
+++ /usr/share/lmod/lmod/libexec/lmod bash load anaconda3/2024.10-1
++ eval '__LMOD_REF_COUNT_ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal:1;' export '__LMOD_REF_COUNT_ACLOCAL_PATH;' 'ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal;' export 'ACLOCAL_PATH;' '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1\;/opt/packages/anaconda3-2024.10-1:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1;' export 'CMAKE_PREFIX_PATH;' 'CONDA_PKGS_DIRS=\$HOME/.conda/pkgs/;' export 'CONDA_PKGS_DIRS;' '__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH;' 'CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include;' export 'CPLUS_INCLUDE_PATH;' '__LMOD_REF_COUNT_C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_C_INCLUDE_PATH;' 'C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include;' export 'C_INCLUDE_PATH;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1\;/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1\;cuda/12.4.0:1\;anaconda3/2024.10-1:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/cuda/v12.4.0/gds/man:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1\;/opt/packages/anaconda3-2024.10-1/man:1\;/opt/packages/anaconda3-2024.10-1/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/anaconda3-2024.10-1/bin:1\;/opt/packages/anaconda3-2024.10-1/condabin:1\;/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1\;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1\;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv;' export '_ModuleTable001_;' '_ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt;' export '_ModuleTable002_;' '_ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u;' export '_ModuleTable003_;' '_ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi;' export '_ModuleTable004_;' '_ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;' '__LMOD_STACK_CONDA_PKGS_DIRS=JEhPTUUvLmNvbmRhL3BrZ3Mv;' export '__LMOD_STACK_CONDA_PKGS_DIRS;' source '/opt/packages/anaconda3-2024.10-1/etc/profile.d/conda.sh;' conda 'activate;'
+++ __LMOD_REF_COUNT_ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal:1
+++ export __LMOD_REF_COUNT_ACLOCAL_PATH
+++ ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal
+++ export ACLOCAL_PATH
+++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH='/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1;/opt/packages/anaconda3-2024.10-1:1'
+++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
+++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1
+++ export CMAKE_PREFIX_PATH
+++ CONDA_PKGS_DIRS='$HOME/.conda/pkgs/'
+++ export CONDA_PKGS_DIRS
+++ __LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include:1
+++ export __LMOD_REF_COUNT_CPLUS_INCLUDE_PATH
+++ CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include
+++ export CPLUS_INCLUDE_PATH
+++ __LMOD_REF_COUNT_C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include:1
+++ export __LMOD_REF_COUNT_C_INCLUDE_PATH
+++ C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include
+++ export C_INCLUDE_PATH
+++ __LMOD_REF_COUNT_INCLUDE='/opt/packages/cuda/v12.4.0/include:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;/opt/packages/anaconda3-2024.10-1/include:1'
+++ export __LMOD_REF_COUNT_INCLUDE
+++ INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include
+++ export INCLUDE
+++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1;cuda/12.4.0:1;anaconda3/2024.10-1:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/packages/cuda/v12.4.0/gds/man:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1;/opt/packages/anaconda3-2024.10-1/man:1;/opt/packages/anaconda3-2024.10-1/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man
+++ export MANPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ __LMOD_REF_COUNT_PATH='/opt/packages/anaconda3-2024.10-1/bin:1;/opt/packages/anaconda3-2024.10-1/condabin:1;/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export PATH
+++ __LMOD_REF_COUNT_PKG_CONFIG_PATH='/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1'
+++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
+++ PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig
+++ export PKG_CONFIG_PATH
+++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;/opt/modulefiles/production/cuda/12.4.0.lua:1;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv
+++ export _ModuleTable001_
+++ _ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt
+++ export _ModuleTable002_
+++ _ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u
+++ export _ModuleTable003_
+++ _ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi
+++ export _ModuleTable004_
+++ _ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
+++ export _ModuleTable005_
+++ _ModuleTable_Sz_=5
+++ export _ModuleTable_Sz_
+++ __LMOD_STACK_CONDA_PKGS_DIRS=JEhPTUUvLmNvbmRhL3BrZ3Mv
+++ export __LMOD_STACK_CONDA_PKGS_DIRS
+++ source /opt/packages/anaconda3-2024.10-1/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/packages/anaconda3-2024.10-1/bin/conda
+++++ dirname /opt/packages/anaconda3-2024.10-1/bin
++++ PATH=/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/packages/anaconda3-2024.10-1/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
++++ PS1='(base) '
++++ export PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export CONDA_PREFIX=/opt/packages/anaconda3-2024.10-1
++++ CONDA_PREFIX=/opt/packages/anaconda3-2024.10-1
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ . /opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh
+++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+++++ export GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
+++++ GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules load anaconda3/2024.10-1
++ return 0
++ conda activate westpa
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate westpa
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate westpa
+++ /opt/packages/anaconda3-2024.10-1/bin/conda shell.posix activate westpa
++ ask_conda='. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(westpa) '\''
+export PATH='\''/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/jet/home/thyagatu/.conda/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_PREFIX_1='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh"'
++ eval '. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(westpa) '\''
+export PATH='\''/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/jet/home/thyagatu/.conda/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_PREFIX_1='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh"'
+++ . /opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ PS1='(westpa) '
+++ export PATH=/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ PATH=/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export CONDA_PREFIX=/jet/home/thyagatu/.conda/envs/westpa
+++ CONDA_PREFIX=/jet/home/thyagatu/.conda/envs/westpa
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=westpa
+++ CONDA_DEFAULT_ENV=westpa
+++ export 'CONDA_PROMPT_MODIFIER=(westpa) '
+++ CONDA_PROMPT_MODIFIER='(westpa) '
+++ export CONDA_PREFIX_1=/opt/packages/anaconda3-2024.10-1
+++ CONDA_PREFIX_1=/opt/packages/anaconda3-2024.10-1
+++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++ . /jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/jet/home/thyagatu/.conda/envs/westpa
++++ for pre in ${rem}
++++ test '' = /jet/home/thyagatu/.conda/envs/westpa
++++ conda_catalog_files=/jet/home/thyagatu/.conda/envs/westpa
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export WEST_SIM_ROOT=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
++ WEST_SIM_ROOT=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
++ cd /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
++ export WORKERS_PER_GPU=8
++ WORKERS_PER_GPU=8
++ export MPS_PERCENTAGE=100
++ MPS_PERCENTAGE=100
++ export CUDA_MPS_ACTIVE_THREAD_PERCENTAGE=60
++ CUDA_MPS_ACTIVE_THREAD_PERCENTAGE=60
++ export OPENMM_CPU_THREADS=2
++ OPENMM_CPU_THREADS=2
++ export OMP_NUM_THREADS=1
++ OMP_NUM_THREADS=1
++ echo 'Initially, CUDA_VISIBLE_DEVICES=0,1'
+Initially, CUDA_VISIBLE_DEVICES=0,1
++ nvidia-smi -L
+GPU 0: Tesla V100-SXM2-32GB (UUID: GPU-3006f0da-43b4-3c65-7c64-e0960f2f6b78)
+GPU 1: Tesla V100-SXM2-32GB (UUID: GPU-594ed298-856b-630b-bf8d-088b7598c897)
++ IFS=,
++ read -ra DEVICES
++ for gpuid in "${DEVICES[@]}"
++ export CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps-29269135-0
++ CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps-29269135-0
++ export CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log-29269135-0
++ CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log-29269135-0
++ mkdir -p /tmp/nvidia-mps-29269135-0 /tmp/nvidia-log-29269135-0
++ for gpuid in "${DEVICES[@]}"
++ export CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps-29269135-1
++ CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps-29269135-1
++ export CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log-29269135-1
++ CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log-29269135-1
++ mkdir -p /tmp/nvidia-mps-29269135-1 /tmp/nvidia-log-29269135-1
+++ IFS=,
+++ echo 0,1
++ export CUDA_VISIBLE_DEVICES=0,1
++ CUDA_VISIBLE_DEVICES=0,1
++ nvidia-cuda-mps-control -d
++ sleep 5
++ echo set_active_thread_percentage 60
++ nvidia-cuda-mps-control
+Server 60 not found
++ source env.sh
+++ module load gcc/13.3.1-p20240614
++++ /usr/share/lmod/lmod/libexec/lmod bash load gcc/13.3.1-p20240614
+
+The following have been reloaded with a version change:
+  1) gcc/13.2.1-p20240113 => gcc/13.3.1-p20240614
+
+++ eval 'CC=gcc;' export 'CC;' '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu:1\;/opt/packages/anaconda3-2024.10-1:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu:/opt/packages/anaconda3-2024.10-1;' export 'CMAKE_PREFIX_PATH;' '__LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1\;/opt/packages/cuda/v12.4.0/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:/opt/packages/cuda/v12.4.0/include;' export 'CPATH;' 'CXX=g++;' export 'CXX;' '__LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp:1;' export '__LMOD_REF_COUNT_EMACSLOADPATH;' 'EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp::;' export 'EMACSLOADPATH;' 'F77=gfortran;' export 'F77;' 'FC=gfortran;' export 'FC;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1\;/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:/opt/packages/cuda/v12.4.0/include:/opt/packages/anaconda3-2024.10-1/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info:1;' export '__LMOD_REF_COUNT_INFOPATH;' 'INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info;' export 'INFOPATH;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1\;/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1\;/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;openmpi/5.0.3-gcc13.2.1:1\;cuda/12.4.0:1\;anaconda3/2024.10-1:1\;gcc/13.3.1-p20240614:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1:gcc/13.3.1-p20240614;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale:1;' export '__LMOD_REF_COUNT_LOCPATH;' 'LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale;' export 'LOCPATH;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:1\;/opt/packages/cuda/v12.4.0/gds/man:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1\;/opt/packages/anaconda3-2024.10-1/man:1\;/opt/packages/anaconda3-2024.10-1/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:1\;/jet/home/thyagatu/.conda/envs/westpa/bin:1\;/opt/packages/anaconda3-2024.10-1/condabin:2\;/opt/packages/anaconda3-2024.10-1/bin:1\;/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:1\;/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1\;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python:1;' export '__LMOD_REF_COUNT_PYTHONPATH;' 'PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python;' export 'PYTHONPATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1\;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1\;/opt/modulefiles/production/gcc/13.3.1-p20240614.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.3.1-p20240614.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv;' export '_ModuleTable001_;' '_ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjMuMS1wMjAyNDA2MTQubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4zLjEt;' export '_ModuleTable002_;' '_ModuleTable003_=cDIwMjQwNjE0IixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjMuMS1wMjAyNDA2MTQiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u;' export '_ModuleTable003_;' '_ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi;' export '_ModuleTable004_;' '_ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;'
++++ CC=gcc
++++ export CC
++++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu:1;/opt/packages/anaconda3-2024.10-1:1'
++++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
++++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu:/opt/packages/anaconda3-2024.10-1
++++ export CMAKE_PREFIX_PATH
++++ __LMOD_REF_COUNT_CPATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1;/opt/packages/cuda/v12.4.0/include:1'
++++ export __LMOD_REF_COUNT_CPATH
++++ CPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:/opt/packages/cuda/v12.4.0/include
++++ export CPATH
++++ CXX=g++
++++ export CXX
++++ __LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp:1
++++ export __LMOD_REF_COUNT_EMACSLOADPATH
++++ EMACSLOADPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/emacs/site-lisp::
++++ export EMACSLOADPATH
++++ F77=gfortran
++++ export F77
++++ FC=gfortran
++++ export FC
++++ __LMOD_REF_COUNT_INCLUDE='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:1;/opt/packages/cuda/v12.4.0/include:1;/opt/packages/anaconda3-2024.10-1/include:1'
++++ export __LMOD_REF_COUNT_INCLUDE
++++ INCLUDE=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/include:/opt/packages/cuda/v12.4.0/include:/opt/packages/anaconda3-2024.10-1/include
++++ export INCLUDE
++++ __LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info:1
++++ export __LMOD_REF_COUNT_INFOPATH
++++ INFOPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/info
++++ export INFOPATH
++++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1;/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1'
++++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
++++ LD_LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib
++++ export LD_LIBRARY_PATH
++++ __LMOD_REF_COUNT_LIBRARY_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:1;/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1'
++++ export __LMOD_REF_COUNT_LIBRARY_PATH
++++ LIBRARY_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64
++++ export LIBRARY_PATH
++++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;openmpi/5.0.3-gcc13.2.1:1;cuda/12.4.0:1;anaconda3/2024.10-1:1;gcc/13.3.1-p20240614:1'
++++ export __LMOD_REF_COUNT_LOADEDMODULES
++++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1:gcc/13.3.1-p20240614
++++ export LOADEDMODULES
++++ __LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale:1
++++ export __LMOD_REF_COUNT_LOCPATH
++++ LOCPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/locale
++++ export LOCPATH
++++ __LMOD_REF_COUNT_MANPATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:1;/opt/packages/cuda/v12.4.0/gds/man:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1;/opt/packages/anaconda3-2024.10-1/man:1;/opt/packages/anaconda3-2024.10-1/share/man:1'
++++ export __LMOD_REF_COUNT_MANPATH
++++ MANPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/man:/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man
++++ export MANPATH
++++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
++++ export MODULEPATH
++++ __LMOD_REF_COUNT_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:1;/jet/home/thyagatu/.conda/envs/westpa/bin:1;/opt/packages/anaconda3-2024.10-1/condabin:2;/opt/packages/anaconda3-2024.10-1/bin:1;/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
++++ export __LMOD_REF_COUNT_PATH
++++ PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export PATH
++++ __LMOD_REF_COUNT_PKG_CONFIG_PATH='/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:1;/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1'
++++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
++++ PKG_CONFIG_PATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/lib64/pkgconfig:/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ __LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python:1
++++ export __LMOD_REF_COUNT_PYTHONPATH
++++ PYTHONPATH=/opt/packages/gcc/v13.3.1-p20240614/b2gpu/share/gcc-13.2.1/python
++++ export PYTHONPATH
++++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;/opt/modulefiles/production/cuda/12.4.0.lua:1;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1;/opt/modulefiles/production/gcc/13.3.1-p20240614.lua:1'
++++ export __LMOD_REF_COUNT__LMFILES_
++++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.3.1-p20240614.lua
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv
++++ export _ModuleTable001_
++++ _ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjMuMS1wMjAyNDA2MTQubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4zLjEt
++++ export _ModuleTable002_
++++ _ModuleTable003_=cDIwMjQwNjE0IixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjMuMS1wMjAyNDA2MTQiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u
++++ export _ModuleTable003_
++++ _ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi
++++ export _ModuleTable004_
++++ _ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
++++ export _ModuleTable005_
++++ _ModuleTable_Sz_=5
++++ export _ModuleTable_Sz_
++++ : -s sh
+++ eval
+++ ret=0
+++ /usr/share/lmod/8.2.7/libexec/log_modules load gcc/13.3.1-p20240614
+++ return 0
+++ module load openmpi/5.0.3-gcc13.2.1
++++ /usr/share/lmod/lmod/libexec/lmod bash load openmpi/5.0.3-gcc13.2.1
+
+The following have been reloaded with a version change:
+  1) gcc/13.3.1-p20240614 => gcc/13.2.1-p20240113
+
+++ eval 'CC=gcc;' export 'CC;' '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1\;/opt/packages/anaconda3-2024.10-1:1;' export '__LMOD_REF_COUNT_CMAKE_PREFIX_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1;' export 'CMAKE_PREFIX_PATH;' '__LMOD_REF_COUNT_CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1\;/opt/packages/cuda/v12.4.0/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/cuda/v12.4.0/include;' export 'CPATH;' 'CXX=g++;' export 'CXX;' '__LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp:1;' export '__LMOD_REF_COUNT_EMACSLOADPATH;' 'EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp::;' export 'EMACSLOADPATH;' 'F77=gfortran;' export 'F77;' 'FC=gfortran;' export 'FC;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1\;/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/cuda/v12.4.0/include:/opt/packages/anaconda3-2024.10-1/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info:1;' export '__LMOD_REF_COUNT_INFOPATH;' 'INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info;' export 'INFOPATH;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1\;/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1\;/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;cuda/12.4.0:1\;anaconda3/2024.10-1:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:cuda/12.4.0:anaconda3/2024.10-1:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale:1;' export '__LMOD_REF_COUNT_LOCPATH;' 'LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale;' export 'LOCPATH;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1\;/opt/packages/cuda/v12.4.0/gds/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1\;/opt/packages/anaconda3-2024.10-1/man:1\;/opt/packages/anaconda3-2024.10-1/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/opt/packages/cuda/v12.4.0/gds/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' 'OPENMPI_DIR=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu;' export 'OPENMPI_DIR;' 'OPENMPI_VERSION=5.0.3;' export 'OPENMPI_VERSION;' '__LMOD_REF_COUNT_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.conda/envs/westpa/bin:1\;/opt/packages/anaconda3-2024.10-1/condabin:2\;/opt/packages/anaconda3-2024.10-1/bin:1\;/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1\;/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1\;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python:1;' export '__LMOD_REF_COUNT_PYTHONPATH;' 'PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python;' export 'PYTHONPATH;' 'SLURM_WHOLE=1;' export 'SLURM_WHOLE;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1\;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv;' export '_ModuleTable001_;' '_ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt;' export '_ModuleTable002_;' '_ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u;' export '_ModuleTable003_;' '_ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi;' export '_ModuleTable004_;' '_ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;'
++++ CC=gcc
++++ export CC
++++ __LMOD_REF_COUNT_CMAKE_PREFIX_PATH='/opt/packages/gcc/v13.2.1-p20240113/b2gpu:1;/opt/packages/anaconda3-2024.10-1:1'
++++ export __LMOD_REF_COUNT_CMAKE_PREFIX_PATH
++++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1
++++ export CMAKE_PREFIX_PATH
++++ __LMOD_REF_COUNT_CPATH='/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;/opt/packages/cuda/v12.4.0/include:1'
++++ export __LMOD_REF_COUNT_CPATH
++++ CPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/cuda/v12.4.0/include
++++ export CPATH
++++ CXX=g++
++++ export CXX
++++ __LMOD_REF_COUNT_EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp:1
++++ export __LMOD_REF_COUNT_EMACSLOADPATH
++++ EMACSLOADPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/emacs/site-lisp::
++++ export EMACSLOADPATH
++++ F77=gfortran
++++ export F77
++++ FC=gfortran
++++ export FC
++++ __LMOD_REF_COUNT_INCLUDE='/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;/opt/packages/cuda/v12.4.0/include:1;/opt/packages/anaconda3-2024.10-1/include:1'
++++ export __LMOD_REF_COUNT_INCLUDE
++++ INCLUDE=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/cuda/v12.4.0/include:/opt/packages/anaconda3-2024.10-1/include
++++ export INCLUDE
++++ __LMOD_REF_COUNT_INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info:1
++++ export __LMOD_REF_COUNT_INFOPATH
++++ INFOPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/info
++++ export INFOPATH
++++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1'
++++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
++++ LD_LIBRARY_PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64
++++ export LD_LIBRARY_PATH
++++ __LMOD_REF_COUNT_LIBRARY_PATH='/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1'
++++ export __LMOD_REF_COUNT_LIBRARY_PATH
++++ LIBRARY_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64
++++ export LIBRARY_PATH
++++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;cuda/12.4.0:1;anaconda3/2024.10-1:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1'
++++ export __LMOD_REF_COUNT_LOADEDMODULES
++++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:cuda/12.4.0:anaconda3/2024.10-1:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1
++++ export LOADEDMODULES
++++ __LMOD_REF_COUNT_LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale:1
++++ export __LMOD_REF_COUNT_LOCPATH
++++ LOCPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/locale
++++ export LOCPATH
++++ __LMOD_REF_COUNT_MANPATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1;/opt/packages/cuda/v12.4.0/gds/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1;/opt/packages/anaconda3-2024.10-1/man:1;/opt/packages/anaconda3-2024.10-1/share/man:1'
++++ export __LMOD_REF_COUNT_MANPATH
++++ MANPATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/opt/packages/cuda/v12.4.0/gds/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man
++++ export MANPATH
++++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
++++ export MODULEPATH
++++ OPENMPI_DIR=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu
++++ export OPENMPI_DIR
++++ OPENMPI_VERSION=5.0.3
++++ export OPENMPI_VERSION
++++ __LMOD_REF_COUNT_PATH='/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.conda/envs/westpa/bin:1;/opt/packages/anaconda3-2024.10-1/condabin:2;/opt/packages/anaconda3-2024.10-1/bin:1;/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
++++ export __LMOD_REF_COUNT_PATH
++++ PATH=/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export PATH
++++ __LMOD_REF_COUNT_PKG_CONFIG_PATH='/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1;/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1'
++++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
++++ PKG_CONFIG_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ __LMOD_REF_COUNT_PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python:1
++++ export __LMOD_REF_COUNT_PYTHONPATH
++++ PYTHONPATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/gcc-13.2.1/python
++++ export PYTHONPATH
++++ SLURM_WHOLE=1
++++ export SLURM_WHOLE
++++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/cuda/12.4.0.lua:1;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1'
++++ export __LMOD_REF_COUNT__LMFILES_
++++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv
++++ export _ModuleTable001_
++++ _ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt
++++ export _ModuleTable002_
++++ _ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u
++++ export _ModuleTable003_
++++ _ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi
++++ export _ModuleTable004_
++++ _ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
++++ export _ModuleTable005_
++++ _ModuleTable_Sz_=5
++++ export _ModuleTable_Sz_
++++ : -s sh
+++ eval
+++ ret=0
+++ /usr/share/lmod/8.2.7/libexec/log_modules load openmpi/5.0.3-gcc13.2.1
+++ return 0
+++ module load cuda/12.4.0
++++ /usr/share/lmod/lmod/libexec/lmod bash load cuda/12.4.0
+++ eval '__LMOD_REF_COUNT_CPATH=/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include;' export 'CPATH;' 'CUDA_HOME=/opt/packages/cuda/v12.4.0;' export 'CUDA_HOME;' 'CUDA_PATH=/opt/packages/cuda/v12.4.0;' export 'CUDA_PATH;' '__LMOD_REF_COUNT_INCLUDE=/opt/packages/cuda/v12.4.0/include:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1\;/opt/packages/anaconda3-2024.10-1/include:1;' export '__LMOD_REF_COUNT_INCLUDE;' 'INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LD_LIBRARY_PATH;' '__LMOD_REF_COUNT_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:1\;/opt/packages/cuda/v12.4.0/nvvm/lib64:1\;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1;' export '__LMOD_REF_COUNT_LIBRARY_PATH;' 'LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64;' export 'LIBRARY_PATH;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;anaconda3/2024.10-1:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1\;cuda/12.4.0:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:anaconda3/2024.10-1:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/cuda/v12.4.0/gds/man:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1\;/opt/packages/anaconda3-2024.10-1/man:1\;/opt/packages/anaconda3-2024.10-1/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.conda/envs/westpa/bin:1\;/opt/packages/anaconda3-2024.10-1/condabin:2\;/opt/packages/anaconda3-2024.10-1/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT_PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1\;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1;' export '__LMOD_REF_COUNT_PKG_CONFIG_PATH;' 'PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv;' export '_ModuleTable001_;' '_ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt;' export '_ModuleTable002_;' '_ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u;' export '_ModuleTable003_;' '_ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi;' export '_ModuleTable004_;' '_ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;'
++++ __LMOD_REF_COUNT_CPATH='/opt/packages/cuda/v12.4.0/include:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1'
++++ export __LMOD_REF_COUNT_CPATH
++++ CPATH=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include
++++ export CPATH
++++ CUDA_HOME=/opt/packages/cuda/v12.4.0
++++ export CUDA_HOME
++++ CUDA_PATH=/opt/packages/cuda/v12.4.0
++++ export CUDA_PATH
++++ __LMOD_REF_COUNT_INCLUDE='/opt/packages/cuda/v12.4.0/include:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:1;/opt/packages/anaconda3-2024.10-1/include:1'
++++ export __LMOD_REF_COUNT_INCLUDE
++++ INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include
++++ export INCLUDE
++++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1'
++++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
++++ LD_LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/lib:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
++++ export LD_LIBRARY_PATH
++++ __LMOD_REF_COUNT_LIBRARY_PATH='/opt/packages/cuda/v12.4.0/lib64:1;/opt/packages/cuda/v12.4.0/nvvm/lib64:1;/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64:1'
++++ export __LMOD_REF_COUNT_LIBRARY_PATH
++++ LIBRARY_PATH=/opt/packages/cuda/v12.4.0/lib64:/opt/packages/cuda/v12.4.0/nvvm/lib64:/opt/packages/cuda/v12.4.0/extras/CUPTI/lib64:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64
++++ export LIBRARY_PATH
++++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;anaconda3/2024.10-1:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1;cuda/12.4.0:1'
++++ export __LMOD_REF_COUNT_LOADEDMODULES
++++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:anaconda3/2024.10-1:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0
++++ export LOADEDMODULES
++++ __LMOD_REF_COUNT_MANPATH='/opt/packages/cuda/v12.4.0/gds/man:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1;/opt/packages/anaconda3-2024.10-1/man:1;/opt/packages/anaconda3-2024.10-1/share/man:1'
++++ export __LMOD_REF_COUNT_MANPATH
++++ MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man
++++ export MANPATH
++++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
++++ export MODULEPATH
++++ __LMOD_REF_COUNT_PATH='/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.conda/envs/westpa/bin:1;/opt/packages/anaconda3-2024.10-1/condabin:2;/opt/packages/anaconda3-2024.10-1/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
++++ export __LMOD_REF_COUNT_PATH
++++ PATH=/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export PATH
++++ __LMOD_REF_COUNT_PKG_CONFIG_PATH='/opt/packages/cuda/v12.4.0/lib64/pkgconfig:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:1;/opt/packages/anaconda3-2024.10-1/lib/pkgconfig:1'
++++ export __LMOD_REF_COUNT_PKG_CONFIG_PATH
++++ PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;/opt/modulefiles/production/cuda/12.4.0.lua:1'
++++ export __LMOD_REF_COUNT__LMFILES_
++++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv
++++ export _ModuleTable001_
++++ _ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt
++++ export _ModuleTable002_
++++ _ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u
++++ export _ModuleTable003_
++++ _ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi
++++ export _ModuleTable004_
++++ _ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
++++ export _ModuleTable005_
++++ _ModuleTable_Sz_=5
++++ export _ModuleTable_Sz_
++++ : -s sh
+++ eval
+++ ret=0
+++ /usr/share/lmod/8.2.7/libexec/log_modules load cuda/12.4.0
+++ return 0
+++ module load anaconda3/2024.10-1
++++ /usr/share/lmod/lmod/libexec/lmod bash load anaconda3/2024.10-1
+++ eval 'ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal;' export 'ACLOCAL_PATH;' 'CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1;' export 'CMAKE_PREFIX_PATH;' 'CONDA_PKGS_DIRS=\$HOME/.conda/pkgs/;' export 'CONDA_PKGS_DIRS;' 'CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include;' export 'CPLUS_INCLUDE_PATH;' 'C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include;' export 'C_INCLUDE_PATH;' 'INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include;' export 'INCLUDE;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;gcc/13.2.1-p20240113:1\;openmpi/5.0.3-gcc13.2.1:1\;cuda/12.4.0:1\;anaconda3/2024.10-1:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1;' export 'LOADEDMODULES;' 'MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '__LMOD_REF_COUNT_PATH=/opt/packages/anaconda3-2024.10-1/bin:1\;/opt/packages/anaconda3-2024.10-1/condabin:2\;/opt/packages/cuda/v12.4.0/bin:1\;/opt/packages/cuda/v12.4.0/libnvvp:1\;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1\;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1\;/jet/home/thyagatu/.conda/envs/westpa/bin:1\;/jet/home/thyagatu/.local/bin:1\;/jet/home/thyagatu/bin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' 'PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig;' export 'PKG_CONFIG_PATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1\;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1\;/opt/modulefiles/production/cuda/12.4.0.lua:1\;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv;' export '_ModuleTable001_;' '_ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt;' export '_ModuleTable002_;' '_ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u;' export '_ModuleTable003_;' '_ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi;' export '_ModuleTable004_;' '_ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable005_;' '_ModuleTable_Sz_=5;' export '_ModuleTable_Sz_;' '__LMOD_STACK_CONDA_PKGS_DIRS=JEhPTUUvLmNvbmRhL3BrZ3Mv;' export '__LMOD_STACK_CONDA_PKGS_DIRS;' conda 'deactivate;' source '/opt/packages/anaconda3-2024.10-1/etc/profile.d/conda.sh;' conda 'activate;'
++++ ACLOCAL_PATH=/opt/packages/anaconda3-2024.10-1/share/aclocal
++++ export ACLOCAL_PATH
++++ CMAKE_PREFIX_PATH=/opt/packages/gcc/v13.2.1-p20240113/b2gpu:/opt/packages/anaconda3-2024.10-1
++++ export CMAKE_PREFIX_PATH
++++ CONDA_PKGS_DIRS='$HOME/.conda/pkgs/'
++++ export CONDA_PKGS_DIRS
++++ CPLUS_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include
++++ export CPLUS_INCLUDE_PATH
++++ C_INCLUDE_PATH=/opt/packages/anaconda3-2024.10-1/include
++++ export C_INCLUDE_PATH
++++ INCLUDE=/opt/packages/cuda/v12.4.0/include:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/include:/opt/packages/anaconda3-2024.10-1/include
++++ export INCLUDE
++++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;gcc/13.2.1-p20240113:1;openmpi/5.0.3-gcc13.2.1:1;cuda/12.4.0:1;anaconda3/2024.10-1:1'
++++ export __LMOD_REF_COUNT_LOADEDMODULES
++++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:gcc/13.2.1-p20240113:openmpi/5.0.3-gcc13.2.1:cuda/12.4.0:anaconda3/2024.10-1
++++ export LOADEDMODULES
++++ MANPATH=/opt/packages/cuda/v12.4.0/gds/man:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/share/man:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/share/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man:/opt/packages/anaconda3-2024.10-1/man:/opt/packages/anaconda3-2024.10-1/share/man
++++ export MANPATH
++++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/preproduction:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
++++ export MODULEPATH
++++ __LMOD_REF_COUNT_PATH='/opt/packages/anaconda3-2024.10-1/bin:1;/opt/packages/anaconda3-2024.10-1/condabin:2;/opt/packages/cuda/v12.4.0/bin:1;/opt/packages/cuda/v12.4.0/libnvvp:1;/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:1;/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:1;/jet/home/thyagatu/.conda/envs/westpa/bin:1;/jet/home/thyagatu/.local/bin:1;/jet/home/thyagatu/bin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
++++ export __LMOD_REF_COUNT_PATH
++++ PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/jet/home/thyagatu/.conda/envs/westpa/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export PATH
++++ PKG_CONFIG_PATH=/opt/packages/cuda/v12.4.0/lib64/pkgconfig:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/lib64/pkgconfig:/opt/packages/anaconda3-2024.10-1/lib/pkgconfig
++++ export PKG_CONFIG_PATH
++++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:1;/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:1;/opt/modulefiles/production/cuda/12.4.0.lua:1;/opt/modulefiles/production/anaconda3/2024.10-1.lua:1'
++++ export __LMOD_REF_COUNT__LMFILES_
++++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/production/gcc/13.2.1-p20240113.lua:/opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1:/opt/modulefiles/production/cuda/12.4.0.lua:/opt/modulefiles/production/anaconda3/2024.10-1.lua
++++ export _LMFILES_
++++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxhbmFjb25kYTM9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2FuYWNvbmRhMy8yMDI0LjEwLTEubHVhIixbImZ1bGxOYW1lIl09ImFuYWNv
++++ export _ModuleTable001_
++++ _ModuleTable002_=bmRhMy8yMDI0LjEwLTEiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbmFjb25kYTMvMjAyNC4xMC0xIix9LGN1ZGE9e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL2N1ZGEvMTIuNC4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjdWRhLzEyLjQuMCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImN1ZGEvMTIuNC4wIix9LGdjYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vZ2NjLzEzLjIuMS1wMjAyNDAxMTMubHVhIixbImZ1bGxOYW1lIl09ImdjYy8xMy4yLjEt
++++ export _ModuleTable002_
++++ _ModuleTable003_=cDIwMjQwMTEzIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iZ2NjLzEzLjIuMS1wMjAyNDAxMTMiLH0sb3Blbm1waT17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vb3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsiZnVsbE5hbWUiXT0ib3Blbm1waS81LjAuMy1nY2MxMy4yLjEiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzUuMC4zLWdjYzEzLjIuMSIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9u
++++ export _ModuleTable003_
++++ _ModuleTable004_=L3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEiLFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwi
++++ export _ModuleTable004_
++++ _ModuleTable005_=L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
++++ export _ModuleTable005_
++++ _ModuleTable_Sz_=5
++++ export _ModuleTable_Sz_
++++ __LMOD_STACK_CONDA_PKGS_DIRS=JEhPTUUvLmNvbmRhL3BrZ3Mv
++++ export __LMOD_STACK_CONDA_PKGS_DIRS
++++ conda deactivate
++++ local cmd=deactivate
++++ case "$cmd" in
++++ __conda_activate deactivate
++++ '[' -n '' ']'
++++ local ask_conda
+++++ PS1='(westpa) '
+++++ __conda_exe shell.posix deactivate
+++++ /opt/packages/anaconda3-2024.10-1/bin/conda shell.posix deactivate
++++ ask_conda='export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/deactivate.d/libxml2_deactivate.sh"
+unset CONDA_PREFIX_1
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
++++ eval 'export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/deactivate.d/libxml2_deactivate.sh"
+unset CONDA_PREFIX_1
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
+++++ export PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++++ PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++++ . /jet/home/thyagatu/.conda/envs/westpa/etc/conda/deactivate.d/libxml2_deactivate.sh
++++++ test -n ''
++++++ unset XML_CATALOG_FILES
++++++ unset xml_catalog_files_libxml2
+++++ unset CONDA_PREFIX_1
+++++ PS1='(base) '
+++++ export CONDA_PREFIX=/opt/packages/anaconda3-2024.10-1
+++++ CONDA_PREFIX=/opt/packages/anaconda3-2024.10-1
+++++ export CONDA_SHLVL=1
+++++ CONDA_SHLVL=1
+++++ export CONDA_DEFAULT_ENV=base
+++++ CONDA_DEFAULT_ENV=base
+++++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++++ CONDA_PROMPT_MODIFIER='(base) '
+++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ . /opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh
++++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++++ export GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
++++++ GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
++++ __conda_hashr
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ hash -r
++++ source /opt/packages/anaconda3-2024.10-1/etc/profile.d/conda.sh
+++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ '[' -z x ']'
++++ conda activate
++++ local cmd=activate
++++ case "$cmd" in
++++ __conda_activate activate
++++ '[' -n '' ']'
++++ local ask_conda
+++++ PS1='(base) '
+++++ __conda_exe shell.posix activate
+++++ /opt/packages/anaconda3-2024.10-1/bin/conda shell.posix activate
++++ ask_conda='. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(base) '\''
+export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
++++ eval '. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(base) '\''
+export PATH='\''/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh"'
+++++ . /opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh
++++++ export GSETTINGS_SCHEMA_DIR=
++++++ GSETTINGS_SCHEMA_DIR=
++++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++++ '[' -z ']'
++++++ unset GSETTINGS_SCHEMA_DIR
+++++ PS1='(base) '
+++++ export PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++++ PATH=/opt/packages/anaconda3-2024.10-1/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++++ export CONDA_SHLVL=1
+++++ CONDA_SHLVL=1
+++++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++++ CONDA_PROMPT_MODIFIER='(base) '
+++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
+++++ export _CE_M=
+++++ _CE_M=
+++++ export _CE_CONDA=
+++++ _CE_CONDA=
+++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
+++++ . /opt/packages/anaconda3-2024.10-1/etc/conda/activate.d/libglib_activate.sh
++++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++++ export GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
++++++ GSETTINGS_SCHEMA_DIR=/opt/packages/anaconda3-2024.10-1/share/glib-2.0/schemas
++++ __conda_hashr
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ hash -r
++++ : -s sh
+++ eval
+++ ret=0
+++ /usr/share/lmod/8.2.7/libexec/log_modules load anaconda3/2024.10-1
+++ return 0
+++ conda activate westpa
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate westpa
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(base) '
++++ __conda_exe shell.posix activate westpa
++++ /opt/packages/anaconda3-2024.10-1/bin/conda shell.posix activate westpa
+++ ask_conda='. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(westpa) '\''
+export PATH='\''/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/jet/home/thyagatu/.conda/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_PREFIX_1='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh"'
+++ eval '. "/opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(westpa) '\''
+export PATH='\''/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin'\''
+export CONDA_PREFIX='\''/jet/home/thyagatu/.conda/envs/westpa'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''westpa'\''
+export CONDA_PROMPT_MODIFIER='\''(westpa) '\''
+export CONDA_PREFIX_1='\''/opt/packages/anaconda3-2024.10-1'\''
+export CONDA_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/packages/anaconda3-2024.10-1/bin/python'\''
+. "/jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh"'
++++ . /opt/packages/anaconda3-2024.10-1/etc/conda/deactivate.d/libglib_deactivate.sh
+++++ export GSETTINGS_SCHEMA_DIR=
+++++ GSETTINGS_SCHEMA_DIR=
+++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
+++++ '[' -z ']'
+++++ unset GSETTINGS_SCHEMA_DIR
++++ PS1='(westpa) '
++++ export PATH=/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ PATH=/jet/home/thyagatu/.conda/envs/westpa/bin:/opt/packages/anaconda3-2024.10-1/condabin:/opt/packages/cuda/v12.4.0/bin:/opt/packages/cuda/v12.4.0/libnvvp:/opt/packages/openmpi/gnu/5.0.3-gcc13.2.1-cpu/bin:/opt/packages/gcc/v13.2.1-p20240113/b2gpu/bin:/opt/packages/anaconda3-2024.10-1/bin:/jet/home/thyagatu/.local/bin:/jet/home/thyagatu/bin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
++++ export CONDA_PREFIX=/jet/home/thyagatu/.conda/envs/westpa
++++ CONDA_PREFIX=/jet/home/thyagatu/.conda/envs/westpa
++++ export CONDA_SHLVL=2
++++ CONDA_SHLVL=2
++++ export CONDA_DEFAULT_ENV=westpa
++++ CONDA_DEFAULT_ENV=westpa
++++ export 'CONDA_PROMPT_MODIFIER=(westpa) '
++++ CONDA_PROMPT_MODIFIER='(westpa) '
++++ export CONDA_PREFIX_1=/opt/packages/anaconda3-2024.10-1
++++ CONDA_PREFIX_1=/opt/packages/anaconda3-2024.10-1
++++ export CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ CONDA_EXE=/opt/packages/anaconda3-2024.10-1/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ CONDA_PYTHON_EXE=/opt/packages/anaconda3-2024.10-1/bin/python
++++ . /jet/home/thyagatu/.conda/envs/westpa/etc/conda/activate.d/libxml2_activate.sh
+++++ test -n ''
+++++ xml_catalog_files_libxml2=
+++++ XML_CATALOG_FILES=
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/jet/home/thyagatu/.conda/envs/westpa
+++++ for pre in ${rem}
+++++ test '' = /jet/home/thyagatu/.conda/envs/westpa
+++++ conda_catalog_files=/jet/home/thyagatu/.conda/envs/westpa
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///jet/home/thyagatu/.conda/envs/westpa/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
+++ [[ -z /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2 ]]
++++ basename /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
+++ export SIM_NAME=ParGaMD_chig_2
+++ SIM_NAME=ParGaMD_chig_2
+++ echo 'simulation ParGaMD_chig_2 root is /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2'
+simulation ParGaMD_chig_2 root is /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2
+++ export USE_LOCAL_SCRATCH=1
+++ USE_LOCAL_SCRATCH=1
+++ export WM_ZMQ_MASTER_HEARTBEAT=100
+++ WM_ZMQ_MASTER_HEARTBEAT=100
+++ export WM_ZMQ_WORKER_HEARTBEAT=100
+++ WM_ZMQ_WORKER_HEARTBEAT=100
+++ export WM_ZMQ_TIMEOUT_FACTOR=300
+++ WM_ZMQ_TIMEOUT_FACTOR=300
++ export SERVER_INFO=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json
++ SERVER_INFO=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json
++ export WM_ZMQ_MASTER_HEARTBEAT=50
++ WM_ZMQ_MASTER_HEARTBEAT=50
++ export WM_ZMQ_WORKER_HEARTBEAT=50
++ WM_ZMQ_WORKER_HEARTBEAT=50
++ export WM_ZMQ_TIMEOUT_FACTOR=100
++ WM_ZMQ_TIMEOUT_FACTOR=100
++ (( n=0 ))
++ (( n<60 ))
++ w_run --work-manager=zmq --n-workers=0 --zmq-mode=master --zmq-write-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ '[' -e /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json ']'
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json ']'
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json ']'
++ sleep 1
++ (( n++ ))
++ (( n<60 ))
++ '[' -e /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json ']'
++ cat /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json
+{"rr_endpoint": "tcp://v003.ib.bridges2.psc.edu:45223", "ann_endpoint": "tcp://v003.ib.bridges2.psc.edu:34479"}+ break
++ '[' '!' -e /ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json ']'
++ total_workers=16
++ echo 'Debug: DEVICES = 0' 1
+Debug: DEVICES = 0 1
++ echo 'Debug: total workers = 16'
+Debug: total workers = 16
++ for gpuid in "${DEVICES[@]}"
++ (( w=1 ))
++ (( w<=WORKERS_PER_GPU ))
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=0
++ (( w++ ))
++ CUDA_VISIBLE_DEVICES=0
++ (( w<=WORKERS_PER_GPU ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ (( w++ ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=0
++ (( w++ ))
++ CUDA_VISIBLE_DEVICES=0
++ (( w<=WORKERS_PER_GPU ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ (( w++ ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ for gpuid in "${DEVICES[@]}"
++ (( w=1 ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ (( w++ ))
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w<=WORKERS_PER_GPU ))
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ (( w++ ))
++ (( w<=WORKERS_PER_GPU ))
++ wait
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp
++ export CUDA_VISIBLE_DEVICES=1
++ CUDA_VISIBLE_DEVICES=1
++ w_run --work-manager=zmq --n-workers=1 --zmq-mode=client --zmq-read-host-info=/ocean/projects/chm240001p/thyagatu/pargamd/ParGaMD_chig_2/west_zmq_info.json --zmq-comm-mode=tcp

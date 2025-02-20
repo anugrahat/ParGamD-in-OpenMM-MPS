@@ -1,0 +1,21 @@
+Lmod has detected the following error: This module has not been prepared for
+this type of node. 
+While processing the following module(s):
+    Module fullname       Module Filename
+    ---------------       ---------------
+    gcc/13.3.1-p20240614  /opt/modulefiles/production/gcc/13.3.1-p20240614.lua
+
+Lmod has detected the following error: This module has not been prepared for
+this type of node. 
+While processing the following module(s):
+    Module fullname          Module Filename
+    ---------------          ---------------
+    gcc/13.2.1-p20240113     /opt/modulefiles/production/gcc/13.2.1-p20240113.lua
+    openmpi/5.0.3-gcc13.2.1  /opt/modulefiles/production/openmpi/5.0.3-gcc13.2.1
+
+Integrator configuration: 50000
+Integrator random seed after creation: 0
+Start Time: 	 Feb-17-2025    02:45:53
+End Time: 	 Feb-17-2025    02:46:13
+Execution rate for this run:   2631.5789473684213  steps per second.
+Daily execution rate:          454.7368421052633  ns per day.
